@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: ... (great vibes)...;
+    font-family: 'Great Vibes', cursive;
     color:
 }
 
@@ -46,7 +46,7 @@ header>h1 {
 }
 
 p {
-    font-family: var(--paragraph-font);
+    font-family: 'Playfair Display', serif;
     color: ;
     padding: 1em
 }
@@ -108,4 +108,10 @@ nav a:visited {
 nav a:hover {
     color: ;
     background-color:
+}
+
+h1, .signature {
+    background-color: #E27396;
+    padding-top: 15px;
+    padding-bottom:15px;
 }
