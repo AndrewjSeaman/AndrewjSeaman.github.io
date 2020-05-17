@@ -30,11 +30,11 @@ ul>li {
 }
 
 a:link {
-    color: black;
+    color: #E27396;
 }
 
 a:visited {
-    color: #E27396;
+    color: black;
 }
 
 a:hover {
