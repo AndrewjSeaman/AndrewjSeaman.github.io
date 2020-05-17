@@ -12,14 +12,14 @@ body {
     background-color: #EEC2DD;
 }
 
-/*Paragraphs*/
-p {
-    background-color: white;
-    padding: 15px;
+main, footer {
+    background-color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
-
 /*Top Navigation & links*/
-.top-nav>ul>li {
+ul>li {
     list-style-type: none;
     margin: 0;
     padding: 0;
