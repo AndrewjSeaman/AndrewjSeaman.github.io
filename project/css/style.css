@@ -63,19 +63,19 @@ header nav ul li a {
     font-size: 20px;
 }
 
-a:link {
+nav a:link {
     color: black;
 }
 
-a:visited {
+nav a:visited {
     color: white;
 }
 
-a:hover {
+nav a:hover {
     background-color: #A9F8FB;
 }
 
-a:active {
+nav a:active {
     color: white;
 }
 
@@ -117,16 +117,15 @@ h2 {
 }
 
 /*Paragraphs*/
-main p {
+p {
+    font-family: 'Playfair Display', 'Times New Roamn',serif;
     background-color: #EACBD1;
     color: white;
+}
+main p {
     padding: 15px;
     border: solid white 3px;
-    font-size: 1rem;
-}
-
-.main-bottom p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 /*–––Footer––––*/
@@ -145,6 +144,7 @@ footer p {
     max-width: fit-content;
     background-color: #EACBD1;
     color: white;
+    font-size: 1rem;
 }
 
 .contact-info {
