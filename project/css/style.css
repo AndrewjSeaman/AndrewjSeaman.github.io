@@ -6,35 +6,69 @@ footer {
     margin: 0 auto;
 }
 
-
-/*Content*/
-body {
-    background-color: #EEC2DD;
+/*––Header––*/
+header {
+    background-color:#EACBD1;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    border: solid white 10px;
+    box-sizing: border-box;
 }
 
-/*Paragraphs*/
-p {
-    background-color: white;
-    padding: 15px;
+/*Logo*/
+.logo-box {
+    width: 40px;
+    height: auto;
+    background-color:#EACBD1;
+    padding: 5px;
+    border: solid black 3px;
+    margin: 10px;
+}
+/*H1*/
+.heading {
+    display: flex;
+	flex-direction: column;
+}
+.heading h1 {
+	font-size: 2rem;
+	margin: 0;
+}
+.motto{
+    font-family: 'Great Vibes', cursive, serif;
+    font-size: 1rem;
+    letter-spacing: 1.5pt;
+    margin:0;
 }
 
 /*Top Navigation & links*/
-.top-nav>ul>li {
+.top-nav ul {
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    display: block;
+    padding: .7rem;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+.top-nav ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: white;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Great Vibes', cursive, serif;
     font-size: 20px;
-
 }
 
 a:link {
-    color: #E27396;
+    color: black;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
@@ -49,6 +83,24 @@ a {
     text-decoration: none;
 }
 
+/*––Main––*/
+/*Body*/
+body {
+    background-color: #EACBD1;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+/*Hero Image*/
+.hero-img-a {
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding:0;
+    border: solid black;
+    width: 920px;
+    height:379px;
+}
 /*Headers*/
 h1,
 h2,
@@ -56,6 +108,52 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Great Vibes', cursive, serif;
     color: black;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+/*Paragraphs*/
+main p {
+    background-color: #EACBD1;
+    color: white;
+    padding: 15px;
+    border: solid white 3px;
+    font-size: 1rem;
+}
+
+.main-bottom p{
+    font-size: 1.3rem;
+}
+
+/*–––Footer––––*/
+footer {
+    border: solid white 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+footer img {
+    width: 50px;
+    height: auto;
+}
+
+footer p {
+    max-width: fit-content;
+    background-color: #EACBD1;
+    color: white;
+}
+
+.contact-info {
+    border: solid black 3px;
+    padding: 3px 10px;
+    max-width: fit-content;
+}
+
+.contact-social {
+    display: flex;
+    flex-direction:row;
 }
