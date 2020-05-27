@@ -8,7 +8,7 @@ footer {
 
 /*––Header––*/
 header {
-    background-color:#EACBD1;
+    background-color: #EACBD1;
     margin-top: 10px;
     padding: 5px 0;
     display: flex;
@@ -21,30 +21,33 @@ header {
 .logo-box {
     width: 40px;
     height: auto;
-    background-color:#EACBD1;
+    background-color: #EACBD1;
     padding: 5px;
     border: solid black 3px;
     margin: 10px;
 }
+
 /*H1*/
 .heading {
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
 }
+
 .heading h1 {
-	font-size: 2rem;
-	margin: 0;
+    font-size: 2rem;
+    margin: 0;
 }
-.motto{
+
+.motto {
     font-family: 'Great Vibes', cursive, serif;
     font-size: 1rem;
     letter-spacing: 1.5pt;
-    margin:0;
+    margin: 0;
 }
 
 /*Top Navigation & links*/
 .top-nav ul {
-    display:flex;
+    display: flex;
     align-items: center;
     list-style: none;
 }
@@ -97,11 +100,12 @@ body {
 .hero-img-a {
     margin-top: 20px;
     box-sizing: border-box;
-    padding:0;
+    padding: 0;
     border: solid black;
     width: 920px;
-    height:379px;
+    height: 379px;
 }
+
 /*Headers*/
 h1,
 h2,
@@ -119,10 +123,11 @@ h2 {
 
 /*Paragraphs*/
 p {
-    font-family: 'Playfair Display', 'Times New Roamn',serif;
+    font-family: 'Playfair Display', 'Times New Roamn', serif;
     background-color: #EACBD1;
     color: white;
 }
+
 main p {
     padding: 15px;
     border: solid white 3px;
@@ -136,6 +141,7 @@ footer {
     margin-bottom: 20px;
     padding: 15px;
 }
+
 footer img {
     width: 50px;
     height: auto;
@@ -156,5 +162,5 @@ footer p {
 
 .contact-social {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
