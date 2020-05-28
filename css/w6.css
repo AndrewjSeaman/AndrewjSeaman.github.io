@@ -49,16 +49,16 @@ img {
     width: 200px;
     height: 200px;
     background-color: gold;
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1/2;
+    grid-row: 3/4;
 }
 
 .gold2 {
     width: 200px;
     height: 200px;
     background-color: gold;
-    grid-column: ;
-    grid-row: ;
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
 
 .blue1 {
@@ -75,5 +75,5 @@ img {
 .green2,
 .gold1,
 .gold2 {
-    margin-left: 40px;
+    margin-left: 50px;
 }
