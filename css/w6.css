@@ -14,12 +14,13 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2fr 2fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: 20px;
+    justify-items: center;
     max-width: 600px;
 }
 
 .red1 {
-    width: 600px;
+    width: 100%;
     height: 100px;
     background-color: red;
     grid-column: 1/3;
@@ -32,8 +33,6 @@ img {
     background-color: green;
     grid-column: 1/2;
     grid-row: 2/3;
-
-
 }
 
 .green2 {
@@ -42,7 +41,6 @@ img {
     background-color: green;
     grid-column: 2/3;
     grid-row: 2/3;
-
 }
 
 .gold1 {
@@ -62,18 +60,9 @@ img {
 }
 
 .blue1 {
-    width: 600px;
+    width: 100%;
     height: 100px;
     background-color: blue;
     grid-column: 1/3;
     grid-row: 4/5;
-}
-
-/*Alignment*/
-
-.green1,
-.green2,
-.gold1,
-.gold2 {
-    margin-left: 45px;
 }
