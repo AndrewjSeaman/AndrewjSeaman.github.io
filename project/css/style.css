@@ -155,7 +155,7 @@ body {
 
 /*main-top*/
 .main-top {
-    grid column: 1/2;
+    grid-column: 1/2;
     margin-top: 25px;
     margin-left: 30px;
 }
