@@ -348,7 +348,6 @@ footer p {
 .wrapper-am {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
     grid-gap: 2rem;
     max-width: 920px;
 }
@@ -454,3 +453,6 @@ footer p {
 .wifi-tv-img {
     margin-top: 34px;
 }
+
+
+/*––––––––––––––––Temple Spotlight––––––––––––––––*/
