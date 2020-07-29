@@ -1,0 +1,256 @@
+/*–––––––––––––––––––––––––Home Page–––––––––––––––––––––*/
+/*––––––––––Whole Site––––––––––*/
+header,
+body,
+footer {
+    width: 920px;
+    margin: auto;
+}
+
+html {
+    background-color: #F46715;
+}
+
+body {
+    background-color: white;
+    font-size: 20px;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Crimson Pro', serif;
+}
+
+/*––––––––––Main––––––––––*/
+/*–––Header–––*/
+header {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 0;
+    box-sizing: border-box;
+
+}
+
+.heading-f {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-nav-f {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Logo*/
+.logo-box-f {
+    padding: 5px;
+    /*border: solid black 3px;*/
+    margin: 10px;
+}
+
+/*h1*/
+.heading-f {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5em;
+    margin-top: -300px;
+    margin-left: 300px;
+}
+
+.motto-f {
+    font-family: 'Crimson Pro', serif;
+    font-size: 2rem;
+    letter-spacing: 1.4pt;
+    margin-top: -60px;
+}
+
+/*–––Nav & Links–––*/
+/*Top Nav*/
+.top-nav-f ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.top-nav-f ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+}
+
+/*Top Nav Div*/
+.top-nav-div-f {
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+    margin: 20px 0;
+    margin-left: 30px;
+    margin-left: 265px;
+    max-width: 630px;
+}
+
+/*Nav Links*/
+header nav ul li a {
+    display: block;
+    padding: 10px 2rem;
+    font-size: 2em;
+}
+
+/*Pseudo Classes*/
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: #FBCC0E;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #F46715;
+}
+
+nav a:active {
+    color: #F46715;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*–––––––––––––––Main–––––––––––––––*/
+/*action*/
+.action-f h2 {
+    color: white;
+    margin-top: -50px;
+    margin-left: 110px;
+    font-size: 1.9em;
+}
+
+/*Welcome*/
+.welcome {
+    text-align: center;
+}
+
+.welcome h2 {
+    font-size: 4em;
+    margin: 0;
+    margin-top: -10px;
+}
+
+/*–––––Grid–––––*/
+.wrapper-home-f {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/*content*/
+.welcome-f {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.andrew-intro-f {
+    grid-column: 1/2;
+}
+
+.andrew-intro-img-f {
+    grid-column: 2/3;
+}
+
+.noah-intro-img-f {
+    grid-column: 1/2;
+}
+
+.noah-intro-f {
+    grid-column: 1/2;
+}
+
+/*adjustments*/
+main .wrapper-home-f img {
+    max-width: 250px;
+}
+
+/*––––––––––––––Footer––––––––––––––*/
+/*footer*/
+footer {
+    /*box-sizing: border-box;*/
+    padding: 10px;
+    /*margin-top: 15px;*/
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer p {
+    max-width: fit-content;
+    color: black;
+    font-size: 1rem;
+}
+
+/*contact nformation*/
+.contact-info-f {
+    padding: 3px 400px 3px 10px;
+    max-width: fit-content;
+    grid-column: 1/2;
+    /*display:flex;
+    align-items:flex-start;
+    flex-direction:column;
+    margin-left:100px;*/
+}
+
+/*
+    .contact-social-f {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon-instagram-img-f,
+    .icon-facebook-img-f,
+    .icon-twitter-img-f {
+        /forced width with inline style. Last resort./
+        grid-column: 3/4;
+        padding:20px;
+    }
+
+    .icon-instagram-img-f {
+        grid-column: 3/4;
+    }*/
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-info-f {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+}
+
+.social-f {
+    display: flex;
+    flex-direction: row;
+    grid-column: 2/3;
+    margin-left: 650px;
+    margin-top: -80px;
+}
+
+.footer-copyright-f {
+    grid-column: 1/3;
+}
+
+footer img {
+    width: 70px;
+}
