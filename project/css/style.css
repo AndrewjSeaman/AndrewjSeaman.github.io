@@ -148,6 +148,7 @@ main p {
     grid-column: 1/2;
     grid-row: 2/3;
     margin-top: -10px;
+    border-radius: 10px;
 }
 .action button {
     color: black;
@@ -526,7 +527,23 @@ textarea {
 between the labels and their text fields */
     margin-left: .5em;
 }
-
+/*–Response-*/
+#feedback {
+    position:absolute;
+    top:1490px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding:20px;
+    border-radius: 30px;
+    font-size:25px;
+    height:50px;
+    text-align:center;
+    margin-bottom:20px;
+    display:none;
+    max-width:900px;
+}
+/*–––––Rooms–––––*/
+/*img*/
 .wrapper-res-down picture img {
     width: 400px;
     height: auto;
