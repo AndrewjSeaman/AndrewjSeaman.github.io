@@ -48,26 +48,31 @@ main p {
 main h2 {
     font-size: 3rem;
 }
+
 header div {
     font-size: 1.8rem;
 }
-header, 
-main, 
+
+header,
+main,
 footer {
     max-width: 920px;
 }
+
 main {
     margin: 0 auto;
 }
+
 footer {
-    height:500px;
+    height: 500px;
 }
 
 @media screen and (max-width: 550px) {
     .wrapper-home-f {
         display: block;
     }
- /*––––––––––Header––––––––––*/
+
+    /*––––––––––Header––––––––––*/
     header {
         background-color: black;
         color: white;
@@ -89,10 +94,10 @@ footer {
     }
 
     /*h1*/
-    .heading-f  {
+    .heading-f {
         display: flex;
         flex-direction: column;
-        font-size:3em;
+        font-size: 3em;
     }
 
     .motto-f {
@@ -104,13 +109,14 @@ footer {
 
     /*–––Nav & Links–––*/
     /*Top Nav*/
-    .top-nav-f  ul{
+    .top-nav-f ul {
         display: flex;
         align-items: center;
         list-style: none;
     }
+
     .header nav {
-        max-width:300px;
+        max-width: 300px;
     }
 
     .top-nav-f ul li {
@@ -161,11 +167,7 @@ footer {
 
     /*–––––––––––––––Main–––––––––––––––*/
     /*–––––Hero Image–––––*/
-    .hero-img-f {
-        /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;*/
-    }
+
 
     .hero-img-f {
         box-sizing: border-box;
