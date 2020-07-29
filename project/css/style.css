@@ -421,10 +421,8 @@ footer p {
 
 /*–––Hero–––*/
 .hero-img {
-    /*position:absolute;
-    top:150px;*/
     width: 920px;
-    /*margin-top:20px;*/
+    margin-top:30px;
     border-radius: 2px;
 }
 .hero-res-h2 {
