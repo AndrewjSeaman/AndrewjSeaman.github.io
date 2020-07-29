@@ -420,8 +420,8 @@ footer p {
 
 /*–––Hero–––*/
 .hero-img {
-    position:absolute;
-    top:150px;
+    /*position:absolute;
+    top:150px;*/
     width: 920px;
     /*margin-top:20px;*/
     border-radius: 2px;
@@ -430,9 +430,9 @@ footer p {
     color:white;
     padding:0 0 0 10px;
     font-size: 4em;
-    position: absolute;
+    /*position: absolute;
     top:298px;
-    left:952px;
+    left:952px;*/
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 40px 0 0 0;
     text-align: center;
