@@ -7,7 +7,6 @@
  }
  /*body*/
  body {
-    background-color:white;
     padding: 0;
     margin: auto;
     width:920px;
@@ -32,7 +31,7 @@ h2 {
 p {
     font-family: 'Crimson Pro', serif;
     font-family: 'Crimson Text', serif;
-    color: black;
+    color: white;
     padding: 1em;
     font-style: italic;
     /*background-color: #EACBD1;*/
@@ -41,10 +40,13 @@ p {
     color: #245FA8;
 }
 main p {
-    /*padding: 15px;
-    border: solid white 3px;/*
-    font-size: 1.1rem;
-}*/
+    padding: 15px;
+    border: solid white 3px;
+    font-size: 1.5rem;
+}
+main h2 {
+    font-size:2rem;
+}
 header,
 main,
 footer {
@@ -188,8 +190,7 @@ footer img {
 /*paragraph*/
 footer p {
     max-width: fit-content;
-    background-color:;
-    color:;
+    color:black;
     font-size: 1rem;
 }
 /*contact nformation*/
@@ -211,7 +212,3 @@ footer p {
     max-width: 10px;
     height: 10px;
 }*/
-footer img {
-    width: 50px;
-    height: auto;
-}
