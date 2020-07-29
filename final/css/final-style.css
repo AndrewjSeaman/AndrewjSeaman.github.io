@@ -12,8 +12,7 @@
     margin: auto;
     width:920px;
     font-size: 16px;
-    border: 1px solid #ccc;
-    box-shadow: 5px 5px 5px 5px #999;
+   
 }
 /*Headers*/
 h1,
@@ -138,17 +137,17 @@ footer {
 /*–––––––––––––––Main–––––––––––––––*/
 /*–––––Hero Image–––––*/
 .hero-img {
-    display: grid;
+   /* display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;*/
 }
 .hero-img-a {
-    margin-top: 20px;
+    align-items: center;
     box-sizing: border-box;
     padding: 0;
     /*border: solid black;*/
     width: 920px;
-    height: 379px;
+    height: auto;
     /*grid-column: 1/-1;
     grid-row: 1/3;*/
     border-radius: 2px;
