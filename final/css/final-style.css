@@ -7,6 +7,7 @@
  }
  /*body*/
  body {
+     background-color:white;
     padding: 0;
     margin: auto;
     width:920px;
@@ -31,7 +32,7 @@ h2 {
 p {
     font-family: 'Crimson Pro', serif;
     font-family: 'Crimson Text', serif;
-    color: white;
+    color: black;
     padding: 1em;
     font-style: italic;
     /*background-color: #EACBD1;*/
@@ -41,11 +42,10 @@ p {
 }
 main p {
     padding: 15px;
-    border: solid white 3px;
     font-size: 1.5rem;
 }
 main h2 {
-    font-size:2rem;
+    font-size:3rem;
 }
 header,
 main,
@@ -104,7 +104,7 @@ footer {
         margin: 0;
         margin-top:7px;
         padding: 0;
-        font-family: [first font], [second font], [third font];
+        font-family: 'Crimson Pro', 'Crimson Text', serif;
         font-size: 20px;
     }
     /*Top Nav Div*/
@@ -144,7 +144,6 @@ footer {
     grid-template-rows: 1fr 1fr;*/
 }
 .hero-img-a {
-    align-items: center;
     box-sizing: border-box;
     padding: 0;
     /*border: solid black;*/
