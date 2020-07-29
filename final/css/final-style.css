@@ -9,10 +9,11 @@
  body {
     background-color:white;
     padding: 0;
-    margin: 0;
+    margin: auto;
+    width:920px;
     font-size: 16px;
     border: 1px solid #ccc;
-    box-shadow: 5px 0 #999;
+    box-shadow: 5px 5px 5px 5px #999;
 }
 /*Headers*/
 h1,
@@ -21,21 +22,28 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: [first font], [second font], [third font];
-    color:;
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Crimson Text', serif;
+    color: #000;
 }
 h2 {
     /*text-decoration: underline;*/
 }
 /*Paragraphs*/
 p {
-    font-family: [first font], [second font], [third font];
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Crimson Text', serif;
+    color: black;
+    padding: 1em;
+    font-style: italic;
     /*background-color: #EACBD1;*/
-    color: ;
+}
+.colored {
+    color: #245FA8;
 }
 main p {
-    padding: 15px;
-    /*border: solid white 3px;/*
+    /*padding: 15px;
+    border: solid white 3px;/*
     font-size: 1.1rem;
 }*/
 header,
@@ -50,7 +58,8 @@ footer {
         display: block;
     }
     header {
-        background-color:#;
+        background-color:black;
+        color:white;
         margin-top: 10px;
         padding: 5px 0;
         display: flex;
