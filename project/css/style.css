@@ -286,26 +286,26 @@ footer p {
     background-color: white;
 }
 /*–Bottom Return Link–*/
-.btm-rtr-amt {
+.bottom-return {
     text-align: center;
     padding: 20px;
     color: black;
 }
 /*psedo classes*/
-.btm-rtr-amt a:link {
+.bottom-return a:link {
     color: black;
 }
-.btm-rtr-amt a:visited {
+.bottom-return a:visited {
     color: white;
 }
-.btm-rtr-amt a:hover {
+.bottom-return a:hover {
     color: black;
     background-color: #A9F8FB;
 }
-.btm-rtr-amt a:active {
+.bottom-return a:active {
     color: white;
 }
-.btm-rtr-amt a {
+.bottom-return a {
     text-decoration: none;
 }
 /*––––––Grid––––––*/
@@ -402,26 +402,60 @@ footer p {
 /*––––––––––––––––––––––––––––Reservations––––––––––––––––––––––––––––*/
 /*––––––––Main––––––––*/
 /*–––Grid–––*/
-.wrapper-res {
-    /*display:grid;*/
+/*.wrapper-res-up {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}*/
+.wrapper-res-down {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:100px;
+    grid-gap:2em;
 }
+/*–Grid Content-*/
+/*img*/
+.wrapper-res-down img {
+    margin-top: 70px;
+}
+
 /*–––Hero–––*/
 .hero-img {
+    position:absolute;
+    top:150px;
     width: 920px;
-    margin-top:20px;
+    /*margin-top:20px;*/
     border-radius: 2px;
 }
+.hero-res-h2 {
+    color:white;
+    padding:0 0 0 10px;
+    font-size: 4em;
+    position: absolute;
+    top:298px;
+    left:952px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px 0 0 0;
+    text-align: center;
+}
+
+
 /*–––Locations–––*/
+.locations {
+    margin-top:550px;
+}
 /*h2*/
 
 /*List*/
-
+.locations ul {
+    border-left:solid white 3px;
+    padding-left:20px;
+}
 /*–––Form–––*/
 /*form*/
 form {
     /* Center the form on the page */
-    margin:0 50%;
-    margin-top: -750px;
+    margin:0 52%;
+    margin-top: -800px;
     width: 400px;
     /* Form outline */
     padding: 1em;
@@ -486,4 +520,13 @@ textarea {
     /* This extra margin represent roughly the same space as the space
 between the labels and their text fields */
     margin-left: .5em;
+}
+
+.wrapper-res-down picture img {
+    width: 400px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+    background-color: white;
 }

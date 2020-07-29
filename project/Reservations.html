@@ -19,7 +19,7 @@
 
         <section class="heading">
             <a href="index.html">
-                <h1>Temple Inn & Suites</h1>
+                <h1 id="top-res">Temple Inn & Suites</h1>
             </a>
             <div class="motto">~Come Home And Rest~</div>
         </section>
@@ -34,19 +34,15 @@
         </nav>
     </header>
     <main>
-        <div class="wrapper-res">
+        <div class="wrapper-res-up">
             <div class="hero-res">
                 <img class="hero-img" alt="Beautiful photograph of LDS Salk Lake City temple."
                     src="images/slc-temple-2.jpeg">
-                <div class="action-am action">
-                    <h3>
-                        Plan your next adventure with us!
-                    </h3>
-                    <button>Contact Us</button>
-                </div>
+                <a href="#list"><h2 class="hero-res-h2">Make A <br>Reservation <br>Today!</h2></a>
             </div>
+        </div>
             <div class="locations">
-                <h2>Locations</h2>
+                <h2 id="list">Locations</h2>
                 <ul>
                     <li>Location (Country, State, City) | Temple it's near.</li>
                     <li>Location (Country, State, City) | Temple it's near.</li>
@@ -90,104 +86,97 @@
                     <li>Location (Country, State, City) | Temple it's near.</li>
                 </ul>
             </div>
-            <div id="feedback"></div>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                    <li>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name" placeholder="(First, Last)">
-                    </li>
-                    <li>
-                        <label for="hotel">Hotel:</label>
-                        <input type="text" id="hotel" name="hotel_location" placeholder="Country, State, City">
-                    </li>
-                    <li>
-                        <label for="type">Room Type:</label>
-                        <input type="text" id="type" name="room_type" placeholder="Grand, Midsize, Standard">
-                    </li>
-                    <li>
-                        <label for="number">Rooms:</label>
-                        <input type="number" id="number" name="room_number" placeholder="Enter Number of Rooms">
-                    </li>
-                    <li>
-                        <label for="date_arival">Check-In Date:</label>
-                        <input type="text" id="date_arival" name="check_in_date" placeholder="mm/dd/yy">
-                    </li>
-                    <li>
-                        <label for="time_arival">Check-In Time:</label>
-                        <input type="text" id="time_arival" name="check_in_time" placeholder="XX:XX p.m.">
-                    </li>
-                    <li>
-                        <label for="duration">Duration of Stay:</label>
-                        <input type="number" id="duration" name="duration_of_stay" placeholder="Enter Number of Days">
-                    </li>
-                    <li>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_email" placeholder="example_email@site.com">
-                    </li>
-                    <li>
-                        <label for="phone">Phone Number:</label>
-                        <input type="text" id="phone" name="phone_number" placeholder="(XXX) XXX-XXXX">
-                    </li>
-                    <li>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message" placeholder="Leave a message."></textarea>
-                    </li>
-                    <li class="button-form">
-                        <button type="submit">Send your message</button>
-                    </li>
-                </ul>
-            </form>
-            <script>
-                // get the feedback div element so we can do something with it.
-                const feedbackElement = document.getElementById('feedback');
-                // get the form element so we can read what was entered in it.
-                const formElement = document.forms[0];
+        <div id="feedback"></div>
+        <form  action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" placeholder="(First, Last)">
+                </li>
+                <li>
+                    <label for="hotel">Hotel:</label>
+                    <input type="text" id="hotel" name="hotel_location" placeholder="Country, State, City">
+                </li>
+                <li>
+                    <label for="type">Room Type:</label>
+                    <input type="text" id="type" name="room_type" placeholder="Grand, Midsize, Standard">
+                </li>
+                <li>
+                    <label for="number">Rooms:</label>
+                    <input type="number" id="number" name="room_number" placeholder="Enter Number of Rooms">
+                </li>
+                <li>
+                    <label for="date_arival">Check-In Date:</label>
+                    <input type="text" id="date_arival" name="check_in_date" placeholder="mm/dd/yy">
+                </li>
+                <li>
+                    <label for="time_arival">Check-In Time:</label>
+                    <input type="text" id="time_arival" name="check_in_time" placeholder="XX:XX p.m.">
+                </li>
+                <li>
+                    <label for="duration">Duration of Stay:</label>
+                    <input type="number" id="duration" name="duration_of_stay" placeholder="Enter Number of Days">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email" placeholder="example_email@site.com">
+                </li>
+                <li>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone_number" placeholder="(XXX) XXX-XXXX">
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message" placeholder="Leave a message."></textarea>
+                </li>
+                <li class="button-form">
+                    <button type="submit">Send your message</button>
+                </li>
+            </ul>
+        </form>
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form element so we can read what was entered in it.
+            const formElement = document.forms[0];
 
-                // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-                formElement.addEventListener('submit', function (e) {
-                    // stop the form from doing the default action
-                    e.preventDefault();
-                    // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-                    feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value +
-                        '! Thank you for making a reservation at ' + formElement.hotel_location.value +
-                        '! We will get back with you with availability and to accomodate your unique trip details!';
-                    // make the feedback element visible.
-                    feedbackElement.style.display = "block";
-                });
-            </script>
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function (e) {
+                // stop the form from doing the default action
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value +
+                    '! Thank you for making a reservation at ' + formElement.hotel_location.value +
+                    '! We will get back with you with availability and to accomodate your unique trip details!';
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+            });
+        </script>
+        <div class="wrapper-res-down">
             <section class="r-grand">
                 <h2>Grand</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi mollitia voluptas ratione tempore
-                    dolore minima. Blanditiis quod tempora temporibus cum cupiditate, totam nemo earum illo fuga
-                    accusamus non magni mollitia in quidem consequuntur magnam sapiente, accusantium corporis
-                    voluptatibus aut numquam quia. Porro fuga et, eligendi voluptatem suscipit esse nihil deleniti!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores placeat, possimus iste neque quaerat quisquam, quibusdam nulla nam, fugit velit a iure qui temporibus perspiciatis? Consectetur suscipit debitis in! Distinctio iste eum autem harum, magnam animi itaque ab, asperiores obcaecati voluptate blanditiis explicabo modi officiis suscipit earum? Unde magnam voluptate porro, quod nemo autem, culpa, commodi saepe asperiores non sequi exercitationem! Vitae obcaecati consectetur ratione debitis mollitia magnam, facere perferendis fugit facilis aliquam dolores numquam.</p>
             </section>
             <picture class="r-grand-img">
-                <img src="images/hotel-room.jpg" alt="Description of the Grand room.">
+                <img src="images/hotel-room-grand.jpg" alt="Description of the Grand room.">
             </picture>
             <section class="r-midsize">
                 <h2>Midsize</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est quas dolores doloribus expedita
-                    nisi magni aspernatur architecto consequatur! Debitis, commodi aliquid odio ad recusandae fugit
-                    accusantium a nobis et aliquam voluptas facilis illo assumenda pariatur quia alias incidunt cumque
-                    nesciunt minima quo ipsam magnam optio distinctio modi. Sunt, enim.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis minima repellat possimus, nulla non illo voluptate esse totam? Quo, fuga provident consequatur ea ab earum voluptate, voluptatum magnam voluptatibus, nobis est doloribus accusantium illo natus amet tempore corporis esse et ipsum vel. Cupiditate adipisci dignissimos rerum, hic eum deserunt fuga modi quas? Doloribus, ad! Provident porro eos neque! Molestias ducimus dolorum rem, incidunt iste nostrum, nulla, nihil assumenda illo tempore animi dignissimos. Aliquid, debitis doloribus.</p>
             </section>
             <picture class="r-midsize-img">
-                <img src="#" alt="Description of the Midsize room.">
+                <img src="images/hotel-room-mid.jpg" alt="Description of the Midsize room.">
             </picture>
             <section class="r-standard">
                 <h2>Standard</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda delectus corrupti nihil magni
-                    reprehenderit ad similique omnis libero ratione? Eaque obcaecati tempore magnam nihil beatae ratione
-                    aliquid in nam aliquam molestias. Ratione distinctio ab laborum omnis voluptates quod, commodi
-                    repudiandae, corrupti deleniti delectus nemo magnam unde temporibus nam odit? Totam?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, enim voluptatum quis cumque quasi quaerat repellendus cum sint labore ea harum odio nihil maiores earum in accusamus debitis pariatur minima voluptates ad quas exercitationem voluptate voluptatem alias! Eligendi non minus at, dolorem sapiente accusantium porro dicta ullam quis similique, modi voluptatem blanditiis aperiam quos, ducimus voluptatum commodi nihil iusto. Beatae dolorem consectetur iste eligendi saepe? Optio, quod quas quasi voluptates eum necessitatibus libero repellat sequi.</p>
             </section>
             <picture class="r-standard-img">
-                <img src="#" alt="Description of the Standard room.">
+                <img src="images/hotel-room-standard.jpg" alt="Description of the Standard room.">
             </picture>
-
-
+        </div>
+        <div class="bottom-return">
+            <h2><a href="#top-res">Click to return to the top</a></h2>
         </div>
     </main>
     <footer>
