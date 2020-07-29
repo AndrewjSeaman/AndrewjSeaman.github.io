@@ -38,7 +38,7 @@ p {
     /*background-color: #EACBD1;*/
 }
 
-.colored {
+.colored-f {
     color: #245FA8;
 }
 
@@ -59,7 +59,7 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
-    .wrapper {
+    .wrapper-home-f {
         display: block;
     }
 
@@ -75,7 +75,7 @@ footer {
     }
 
     /*Logo*/
-    .logo-box {
+    .logo-box-f {
         width: 40px;
         height: auto;
         padding: 5px;
@@ -84,17 +84,17 @@ footer {
     }
 
     /*H1*/
-    .heading {
+    .heading-f {
         display: flex;
         flex-direction: column;
     }
 
-    .heading a h1 {
+    .heading-f a h1 {
         font-size: 5rem;
         margin: 0;
     }
 
-    .motto {
+    .motto-f {
         font-family: 'Crimson Pro', 'Crimson Text', serif;
         font-size: 1rem;
         letter-spacing: 1.5pt;
@@ -103,13 +103,13 @@ footer {
 
     /*––––––––––Nav & Links––––––––––*/
     /*Top Nav*/
-    .top-nav ul {
+    .top-nav-f ul {
         display: flex;
         align-items: center;
         list-style: none;
     }
 
-    .top-nav ul li {
+    .top-nav-f ul li {
         list-style-type: none;
         margin: 0;
         margin-top: 7px;
@@ -119,7 +119,7 @@ footer {
     }
 
     /*Top Nav Div*/
-    .top-nav-div {
+    .top-nav-div-f {
         /*border-top: solid black 3px;
         border-bottom: solid black 3px;*/
         margin: 10px 0;
@@ -138,16 +138,16 @@ footer {
     }
 
     nav a:visited {
-        color:#FBCC0E;
+        color: #FBCC0E;
     }
 
     nav a:hover {
-        color:white;
-        background-color:#F46715;
+        color: white;
+        background-color: #F46715;
     }
 
     nav a:active {
-        color:#F46715;
+        color: #F46715;
         background-color: white;
     }
 
@@ -157,13 +157,13 @@ footer {
 
     /*–––––––––––––––Main–––––––––––––––*/
     /*–––––Hero Image–––––*/
-    .hero-img {
+    .hero-img-f {
         /* display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;*/
     }
 
-    .hero-img-a {
+    .hero-img-f {
         box-sizing: border-box;
         padding: 0;
         /*border: solid black;*/
@@ -174,34 +174,67 @@ footer {
     }
 
     /*Call to Action*/
-    .action {
+    .action-f {
         /*background-color: rgba(255, 255, 255, .5);*/
         margin: 1em 30em 1em 2em;
         padding: .3em 1em .3em 1em;
         margin-top: -10px;
     }
-    .action a {
-        margin-top:-50px;
+
+    .action-f a {
+        margin-top: -50px;
         background-color: white;
         border-radius: 100px;
         text-decoration: none;
+    }
+
+    /*–––––Wrapper Content–––––*/
+    /*grid*/
+    .wrapper-home-f {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+
+    /*content*/
+    .welcome-f {
+        grid-column: 1/3;
+        text-align: center;
+    }
+
+    .andrew-intro-f {
+        grid-column: 1/2;
+    }
+
+    .andrew-intro-img-f {
+        grid-column: 2/3;
+    }
+
+    .noah-intro-f {
+        grid-column: 1/2;
+    }
+
+    .noah-intro-img-f {
+        grid-column: 2/3;
     }
 
     /*––––––––––––––Footer––––––––––––––*/
     /*footer*/
     footer {
         /*border: solid white 10px;*/
-        box-sizing: border-box;
-        margin-bottom: 20px;
-        padding: 15px;
-        margin-top: 15px;
+        /*box-sizing: border-box;*/
+        padding: 5px;
+        /*margin-top: 15px;*/
         margin-bottom: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     /*img*/
     footer img {
         width: 50px;
         height: auto;
+        grid-column: 3/4;
     }
 
     /*paragraph*/
@@ -212,22 +245,28 @@ footer {
     }
 
     /*contact nformation*/
-    .contact-info {
+    .contact-info-f {
         padding: 3px 400px 3px 10px;
         max-width: fit-content;
+        grid-column: 1/2;
         /*display:flex;
     align-items:flex-start;
     flex-direction:column;
     margin-left:100px;*/
     }
 
-    .contact-social {
+    .contact-social-f {
         display: flex;
         flex-direction: row;
     }
-    .icon-instagram-img,
-    .icon-facebook-img,
-    .icon-twitter-img {
-        /*max-width: 10px;
-        height: 10px;*/
+
+    .icon-instagram-img-f,
+    .icon-facebook-img-f,
+    .icon-twitter-img-f {
+        /*forced width with inline style. Last resort.*/
+        grid-column: 3/4;
+    }
+
+    .icon-instagram-img-f {
+        grid-column: 3/4;
     }
