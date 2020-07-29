@@ -552,3 +552,50 @@ between the labels and their text fields */
     box-shadow: 5px 5px 5px #999;
     background-color: white;
 }
+
+
+
+/*––––––––––––––––––––––––––––Temple Gallery––––––––––––––––––––––––––––*/
+/*––––––––––Main––––––––––*/
+/*–––––Gallery–––––*/
+/*img*/
+.mock-gallery img{
+    width:920px;
+    height:auto;
+    margin:20px 0;
+}
+/*–––Grid–––*/
+/*grid start*/
+.wrapper-temp {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+}
+/*–Grid Content–*/
+/*mock gallery*/
+.mock-gallery img {
+    grid-column: 1/3;
+}
+/*temple name & paragraph*/
+.temp-name {
+    grid-column: 1/3;
+    text-align:justify;
+}
+.temp-name h1 {
+    text-align:center;
+}
+/*temple image*/
+.temp-img {
+    grid-column: 1/2;
+}
+.temp-ing img {
+    width:500px;
+}
+/*dedication*/
+.dedication {
+    grid-column: 2/3;
+}
+/*uniqueness*/
+.uniqueness {
+    grid-column: 1/3;
+}
