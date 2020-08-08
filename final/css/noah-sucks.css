@@ -7,6 +7,9 @@ body div h1 {
 body div p {
     color:white;
 }
-body {
+html{
     color: pink;
+}
+body {
+    width:920px;
 }
