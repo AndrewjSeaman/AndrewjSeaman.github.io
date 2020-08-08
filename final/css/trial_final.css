@@ -84,7 +84,7 @@ header {
     margin: 0;
     padding: 0;
     font-family: 'Crimson Pro', serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /*Top Nav Div*/
@@ -128,13 +128,7 @@ a {
 }
 
 /*–––––––––––––––Main–––––––––––––––*/
-/*action*/
-.action-f h2 {
-    color: white;
-    margin-top: -50px;
-    margin-left: 110px;
-    font-size: 1.9em;
-}
+
 
 /*Welcome*/
 .welcome {
