@@ -104,7 +104,7 @@ header nav ul li a {
 }
 
 /*Pseudo Classes*/
-nav a:link {
+a:link {
     color: white;
 }
 
@@ -112,14 +112,27 @@ nav a:visited {
     color: #FBCC0E;
 }
 
-nav a:hover {
+.bottom-return a:visited {
+    color: white;
+}
+
+a:hover {
     color: white;
     background-color: #F46715;
 }
 
-nav a:active {
+.bottom-return a:hover {
+    color: black;
+}
+
+a:active {
     color: #F46715;
     background-color: white;
+}
+
+.bottom-return a:active {
+    color: white;
+    background: #F46715;
 }
 
 a {
@@ -174,6 +187,11 @@ a {
 /*adjustments*/
 main .wrapper-home-f img {
     max-width: 250px;
+}
+
+.bottom-return {
+    background-color: #F46715;
+    text-align: center;
 }
 
 /*––––––––––––––Footer––––––––––––––*/
