@@ -125,17 +125,20 @@ a:hover {
 .bottom-return a:hover {
     color: black;
 }
+
 .social-f a:hover {
     color: white;
     background-color: #F46715;
     border-radius: 10px;
     margin-left: 20px;
-    margin-right:20px;
+    margin-right: 20px;
 }
+
 .viewbutton a:hover {
     background-color: #F46715;
     border-radius: 2px;
 }
+
 a:active {
     color: #F46715;
     background-color: white;
@@ -159,6 +162,10 @@ a {
     color: white;
     background-color: #F46715;
     padding-bottom: 10px;
+}
+
+.welcome p {
+    text-align: center;
 }
 
 .welcome h2 {
@@ -255,8 +262,11 @@ footer p {
     display: flex;
     flex-direction: row;
     grid-column: 2/3;
-    margin-left: 650px;
+    /*margin-left:550px;
+    padding-left: 700px;*/
     margin-top: -80px;
+    border-top: 1px black;
+
 }
 
 .footer-copyright-f {
@@ -264,7 +274,7 @@ footer p {
 }
 
 footer img {
-    width: 70px;
+    width: 72px;
 }
 
 
@@ -400,7 +410,7 @@ footer img {
 .detergent {
     text-align: center;
     margin-right: 90px;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 /*Surfaces Grid*/
@@ -412,13 +422,15 @@ footer img {
 
 .surfaces-inner {
     /*grid-column: 1/2;*/
-   margin-top:-480px;
+    margin-top: -480px;
 
 }
+
 .surfaces-inner-1 {
     grid-column: 1/2;
     margin-left: -350px;
 }
+
 .surfaces-inner-2 {
     grid-column: 2/3;
     margin-top: -110px;
@@ -428,9 +440,9 @@ footer img {
     grid-column: 2/3;
     /*margin-left: 430px;*/
     /*grid-row: 1/2;*/
-    margin-top:250px;
+    margin-top: 250px;
     margin-left: 20px;
-    
+
 
 }
 
@@ -453,20 +465,21 @@ img {
 
 .card {
     width: 320px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 3px;
     background-color: white;
     margin-left: 90px;
-    margin-top:50px;
-    margin-bottom:50px;
-    display:inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
 
 
 }
+
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
 .contact-cards {
     font-family: Arial, Helvetica, sans-serif;
@@ -478,27 +491,28 @@ p {
     text-align: left;
 }
 
-    .viewButton {
-        margin-left: 20px;
-        margin-bottom:20px;
-        height:40px;
-        color:white;
-        border:3px white;
-        background-color: black;
-        width:50px;
-        border-radius: 5px 0 0 5px;
-        font-size: 15px;
-        padding:10px;    
-    }
-    .editButton {
-        margin: -3px;
-        margin-bottom:20px;
-        height:40px;
-        color:white;
-        border:3px white;
-        background-color: black;
-        width:50px;
-        border-radius: 0 5px 5px 0;
-        font-size: 15px;
-        padding:10px;
-    }
+.viewButton {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    color: white;
+    border: 3px white;
+    background-color: black;
+    width: 50px;
+    border-radius: 5px 0 0 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.editButton {
+    margin: -3px;
+    margin-bottom: 20px;
+    height: 40px;
+    color: white;
+    border: 3px white;
+    background-color: black;
+    width: 50px;
+    border-radius: 0 5px 5px 0;
+    font-size: 15px;
+    padding: 10px;
+}
