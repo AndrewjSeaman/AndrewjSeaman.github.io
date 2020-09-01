@@ -120,14 +120,18 @@ a:hover {
     color: white;
     background-color: #F46715;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-right:20px;
 }
 
 .bottom-return a:hover {
     color: black;
 }
-
+.social-f a:hover {
+    color: white;
+    background-color: #F46715;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right:20px;
+}
 a:active {
     color: #F46715;
     background-color: white;
@@ -421,6 +425,7 @@ footer img {
     /*margin-left: 430px;*/
     /*grid-row: 1/2;*/
     margin-top:250px;
+    margin-left: 20px;
     
 
 }
