@@ -119,6 +119,9 @@ nav a:visited {
 a:hover {
     color: white;
     background-color: #F46715;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right:20px;
 }
 
 .bottom-return a:hover {
