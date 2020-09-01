@@ -132,6 +132,10 @@ a:hover {
     margin-left: 20px;
     margin-right:20px;
 }
+.viewbutton a:hover {
+    background-color: #F46715;
+    border-radius: 2px;
+}
 a:active {
     color: #F46715;
     background-color: white;
@@ -440,3 +444,61 @@ footer img {
 .surfaces-after-img {
     /*grid-row: 2/3;*/
 }
+
+
+/*–––––––––––––Contact Cards––––––––––––––––––*/
+img {
+    max-width: 100%;
+}
+
+.card {
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 3px;
+    background-color: white;
+    margin-left: 90px;
+    margin-top:50px;
+    margin-bottom:50px;
+    display:inline-block;
+
+
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.contact-cards {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+p {
+    padding: 10px;
+    text-align: left;
+}
+
+    .viewButton {
+        margin-left: 20px;
+        margin-bottom:20px;
+        height:40px;
+        color:white;
+        border:3px white;
+        background-color: black;
+        width:50px;
+        border-radius: 5px 0 0 5px;
+        font-size: 15px;
+        padding:10px;    
+    }
+    .editButton {
+        margin: -3px;
+        margin-bottom:20px;
+        height:40px;
+        color:white;
+        border:3px white;
+        background-color: black;
+        width:50px;
+        border-radius: 0 5px 5px 0;
+        font-size: 15px;
+        padding:10px;
+    }
