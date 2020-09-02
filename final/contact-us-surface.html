@@ -31,47 +31,48 @@
     </header>
     <main class="contact-us-cans">
         <div class="contact-cans-intro">
-        <h2 class="contact-cans-h2">Garbage Can Cleanings</h2>
-        <p class="contact-cans-p">Please fill out the form below to schedule a garbage can cleaning!</p>
+        <h2 class="contact-cans-h2">Surface  Cleaning</h2>
+        <p class="contact-cans-p">Please fill out the form below to schedule an estimate for your surface cleaning!</p>
     </div>
-        <div id="feedback"></div>
+        <div id="feedback_surf"></div>
         <form class="form-cans" action="/my-handling-form-page" method="post">
             <ul>
                 <li>
                     <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="user_name">
+                    <input type="text" id="name" name="user_name" placeholder="Last, First" >
                 </li>
                 <li>
                     <label for="address">Address:</label><br>
-                    <input type="text" id="address" name="user_email">
+                    <input type="text" id="address" name="user_email" placeholder="400 N 700 E, City ST" >
                 </li>
                 <li>
                     <label for="number">Phone #:</label><br>
-                    <input type="text" id="mail" name="user_email">
+                    <input type="text" id="#" name="phone_#" placeholder="(XXX) XXX-XXXX" >
                 </li>
                 <li>
                     <label for="# Type">Phone # Type:</label><br>
-                    <input type="text" id="#_type" name="# type">
+                    <input type="text" id="#_type" name="#_type" placeholder="Text Only, Call Only, Both" >
                 </li>
                 <li>
                     <label for="surface_type">Surface Type:</label><br>
-                    <input type="text" id="surface_type" name="surface type">
+                    <input type="text" id="surface_type" name="surface type" placeholder="Cement, Deck, Fence, etc." >
                 </li>
                 <li>
                     <label for="hookup">Hookup Available?</label><br>
-                    <input type="text" id="" name="">
+                    <input type="text" id="hookup" name="hookup" placeholder="Enter: yes/no" >
                 </li>
                 <li>
                     <label for="hose">Hose Available?</label><br>
-                    <input type="text" id="" name="">
+                    <input type="text" id="hose" name="hose" placeholder="Enter: yes/no" >
                 </li>
                 <li>
                     <label for="estimate date">Estimate Date:</label><br>
-                    <input type="date" id="estimate_date" name="estimate date">
+                    <input type="date" id="estimate_date" name="estimate date" placeholder="mm/dd/yyyy">
                 </li>
                 <li>
                     <label for="msg">Message:</label><br>
-                    <textarea id="msg" name="user_message"></textarea>
+                    <textarea id="msg" name="user_message"
+                        placeholder="Leave any job specific details or questions!"></textarea>
                 </li>
                 <li class="button">
                     <button type="submit">Send your message</button>
@@ -81,7 +82,7 @@
 
         <script>
             // get the feedback div element so we can do something with it.
-            const feedbackElement = document.getElementById('feedback');
+            const feedbackElement = document.getElementById('feedback_surf');
             // get the form element so we can read what was entered in it.
             const formElement = document.forms[0];
 

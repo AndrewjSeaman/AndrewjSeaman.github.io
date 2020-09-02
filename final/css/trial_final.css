@@ -570,7 +570,7 @@ textarea {
     box-sizing: border-box;
 }
 
-#feedback {
+#feedback_cans {
     position: absolute;
     top: 1490px;
     border-radius: 100px;
@@ -582,7 +582,19 @@ textarea {
     margin-bottom: 20px;
     display: none;
     width: 900px;
-
+}
+#feedback_surf {
+    position: absolute;
+    top: 1240px;
+    border-radius: 100px;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+    font-size: 25px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: none;
+    width: 900px;
 }
 
 
