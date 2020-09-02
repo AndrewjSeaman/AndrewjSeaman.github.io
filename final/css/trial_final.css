@@ -302,8 +302,9 @@ footer img {
     margin: 0;
     margin-top: -5px;
 }
+
 .intro-pricing p {
-    text-align:center;
+    text-align: center;
 }
 
 /*––Trash Cans––*/
@@ -449,16 +450,16 @@ footer img {
 
 }
 
-.surfaces-before-img {
-    /*grid-row: 1/2;
+/*.surfaces-before-img {
+    grid-row: 1/2;
     margin-top: 150px;
     padding-right: 20px;
-    padding-bottom: 20px;*/
+    padding-bottom: 20px;
 }
 
 .surfaces-after-img {
-    /*grid-row: 2/3;*/
-}
+    grid-row: 2/3;
+}*/
 
 
 /*–––––––Contact Cards ––––––––––––*/
@@ -586,6 +587,7 @@ textarea {
     display: none;
     width: 900px;
 }
+
 #feedback_surf {
     position: absolute;
     top: 1240px;
